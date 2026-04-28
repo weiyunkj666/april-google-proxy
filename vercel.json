@@ -1,8 +1,8 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/proxy"
+  "$schema": "https://openapi.vercel.sh/vercel.json"，
+  "functions": {
+    "api/proxy.js": {
+      "regions": ["hkg1"]
     }
-  ]
+  }
 }
