@@ -1,7 +1,7 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json"，
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "pages/api/proxy.js": {
+    "api/proxy.js": {
       "regions": ["hkg1"],
       "maxDuration": 10
     }
